@@ -1,6 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// ? style
+import { Button } from 'antd';
+import logo from '../../shared/media/logo.svg';
+import './App.style.css';
+import 'antd/dist/antd.css';
+
+
 
 function App() {
   return (
@@ -16,8 +21,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        aprendiendo react wiiii
         </a>
+        <Button>Click aqui</Button>
       </header>
     </div>
   );
